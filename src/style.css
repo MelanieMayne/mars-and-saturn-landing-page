@@ -1,0 +1,165 @@
+body {
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/639/original/seamless-repeat-pattern-space-background-with-stars-constellations-and-planets-design-ideas-used-for-textiles-children-s-clothing-publications-gift-wrap-vector.jpg?1670287164");
+    background-repeat: repeat;
+  }
+  button {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    transition: hover 200ms ease-in-out;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  .main-container {
+    background: white;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    max-width: 800px;
+    display: block;
+    margin: 30px auto;
+  }
+  h1 {
+    font-family: brush script MT;
+    font-size: 65px;
+    color: goldenrod;
+    margin: 10px;
+  }
+  h3 {
+      font-family: brush script MT;
+      font-size: 50px;
+      color: goldenrod;
+      padding: 10px;
+  }
+  img {
+      border-radius: 4px;
+  }
+  .cat-gif {
+    border-radius: 4px;
+    border: 3px solid goldenrod;
+    margin: 20px;
+    transition: all 200ms ease-in-out;
+  }
+  .cat-gif:hover {
+      transform: scale(1.2);
+  }
+  section {
+    margin: 20px;
+  }
+  .kitties-photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    place-items: center;
+  }
+  .main-cat-photo {
+      align-items: center;
+      border: 3px solid goldenrod;
+      border-radius: 4px;
+  }
+  .mars-photo-gallery, .saturn-photo-gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      place-items: center;
+      border-radius: 4px;
+      margin-top: 20px;
+  }
+  p {
+      text-align: left;
+      font-family: monospace;
+      font-size: 15px;
+      line-height: 1.75;
+  }
+  .adopt-button {
+    background-color: goldenrod;
+    color: black;
+    font-size: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: goldenrod;
+  }
+  footer {
+    margin: 20px;
+    font-size: 15px;
+  }
+  .dark .main-container{
+    background-color: black;
+    color: white;
+  }
+  .dark button {
+    background-color: black;
+    color: white;
+    transition: hover 200ms ease-in-out;
+  }
+  .dark button:hover {
+    background-color: white;
+    color: black;
+  }
+  .dark footer a {
+    color: white;
+  }
+  .dark footer a:hover {
+    color: goldenrod;
+  }
+  @media (max-width: 725px) {
+    .main-container {
+      max-width: 300px;
+    }
+    button {
+      font-size: 10px;
+    }
+    h1 {
+      font-size: 45px
+    }
+    .cat-gif {
+      max-width: 200px;
+    }
+    .kitties-photo-gallery img {
+      max-width: 75px;
+    }
+    .card {
+      size: 12rem;
+    }
+    .card-text {
+      padding: none;
+      margin: none;
+    }
+    ul li {
+      list-style: none;
+      padding: none;
+      margin: none;
+      font-size: 8px;
+      text-align: left;
+    }
+    .btn-warning {
+      font-size: 8px;
+    }
+  .separate-kitties-photo-gallery img {
+    max-width: 75px;
+  }
+  .mars-photo-gallery img, .saturn-photo-gallery img {
+      max-width: 30px;
+  }
+  h3 {
+      font-size: 25px;
+      padding: 5px;
+  }
+  p {
+      font-size: 10px;
+      line-height: 1;
+  }
+    footer {
+      font-size: 10px;
+    }
+  }
