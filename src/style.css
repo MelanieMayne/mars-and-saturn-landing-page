@@ -21,7 +21,7 @@ body {
     text-align: center;
     border: 1px solid gray;
     border-radius: 4px;
-    max-width: 800px;
+    max-width: 960px;
     display: block;
     margin: 30px auto;
   }
@@ -50,7 +50,7 @@ body {
       transform: scale(1.2);
   }
   section {
-    margin: 20px;
+    margin: 40px 20px;
   }
   .kitties-photo-gallery {
     display: grid;
@@ -74,7 +74,7 @@ body {
   p {
       text-align: left;
       font-family: monospace;
-      font-size: 15px;
+      font-size: 16px;
       line-height: 1.75;
   }
   .adopt-button {
@@ -128,17 +128,8 @@ body {
     .kitties-photo-gallery img {
       max-width: 75px;
     }
-    .card {
-      size: 12rem;
-    }
-    .card-text {
-      padding: none;
-      margin: none;
-    }
     ul li {
       list-style: none;
-      padding: none;
-      margin: none;
       font-size: 8px;
       text-align: left;
     }
@@ -149,15 +140,15 @@ body {
     max-width: 75px;
   }
   .mars-photo-gallery img, .saturn-photo-gallery img {
-      max-width: 30px;
+      max-width: 60px;
   }
   h3 {
-      font-size: 25px;
+      font-size: 35px;
       padding: 5px;
   }
   p {
-      font-size: 10px;
-      line-height: 1;
+      font-size: 11px;
+      line-height: 1.25;
   }
     footer {
       font-size: 10px;
